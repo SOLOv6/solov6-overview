@@ -53,8 +53,8 @@ Socar의 기업 과제 중 차량 파손 탐지 및 분류 시스템을 주제�
 - Teacher model과 student model을 분리하여 기존 mask가 존재하지 않는 image에 대해서도 student model이 더 나은 학습을 할 수있게 하였습니다. 
 - 학습시에 Grad-Cam을 사용하여 모델의 성능을 높였고 추론시에는 student model만을 사용하여 추론시간을 감소시켰습니다.  
 
-![teacher-model](/images/teacher model.png)
-![student-model](/images/student model.png)
+![teacher-model](/images/teacher model.png)  
+![student-model](/images/student model.png)  
 
 ## 웹 구현
 ### 웹 구조
