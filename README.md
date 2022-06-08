@@ -56,6 +56,9 @@ Socar의 기업 과제 중 차량 파손 탐지 및 분류 시스템을 주제�
 ![teacher-model](/images/teacher-model.png)  
 ![student-model](/images/student-model.png)  
 
+### result
+![result](/images/result.png)
+
 ## 웹 구현
 ### 웹 구조
 ![web-structure](/images/web-structure.png)
