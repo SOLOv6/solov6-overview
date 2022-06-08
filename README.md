@@ -61,6 +61,12 @@ Socar의 기업 과제 중 차량 파손 탐지 및 분류 시스템을 주제�
 - pseudo mask: teacher model이 생성한 mask
 
 ![result](/images/result.png)
+![result2](/images/result2.png)
+
+### serving
+- model serving architecture
+
+![torchserve](/images/torchserve.png)
 
 ## 웹 구현
 ### 웹 구조
