@@ -6,12 +6,12 @@
   - [목표](#목표)
 
 - [프로젝트 설명](#프로젝트-설명)
-  - [아키텍쳐](#아키텍처)
+  - [프로젝트 구조](#프로젝트-구조)
   - [모델 정의](#모델-정의)
   - [웹 구현](#웹-구현)
 
 - [기술 스택](#기술-스택)
-  
+- [Repositories](#Repositories)
 - [데모](#데모)
 
 # overview
@@ -20,13 +20,13 @@
 Socar의 기업 과제 중 차량 파손 탐지 및 분류 시스템을 주제를 선정해 진행하였습니다.
 
 ## 팀 소개
-| Name | Role | Email | Position |
-|------|------|-------|-------|
-| 강동연  | 팀장 | anfqlc1127@gmail.com  |ML engineer,  MLOps|
-| 노지민  | 팀원 | shwlals96@gmail.com  |ML engineer,  MLOps|
-| 이호준  | 팀원 | hoo8799@gmail.com  |Web engineer,  MLOps|
-| 이태현  | 팀원 | lts2769@naver.com  |Web engineer,  MLOps|
-| 류예나  | 팀원 | yena0773@naver.com  |Project Manager|
+| Name  | Role  | Email                | Position             |
+|-------|-------|----------------------|----------------------|
+| 강동연   | 팀장    | anfqlc1127@gmail.com | ML engineer,  MLOps  |
+| 노지민   | 팀원    | shwlals96@gmail.com  | ML engineer,  MLOps  |
+| 이호준   | 팀원    | hoo8799@gmail.com    | Web engineer,  MLOps |
+| 이태현   | 팀원    | lts2769@naver.com    | Web engineer,  MLOps |
+| 류예나   | 팀원    | yena0773@naver.com   | Project Manager      |
 
 ## 문제 정의
 1. Gooing Deeper에서 진행한 쏘카 이용전 사진을 부위별로 분류하는 작업의 고도화
@@ -51,7 +51,8 @@ Socar의 기업 과제 중 차량 파손 탐지 및 분류 시스템을 주제�
 
 ### model
 - Teacher model과 student model을 분리하여 기존 mask가 존재하지 않는 image에 대해서도 student model이 더 나은 학습을 할 수있게 하였습니다. 
-- 학습시에 Grad-Cam을 사용하여 모델의 성능을 높였고 추론시에는 student model만을 사용하여 추론시간을 감소시켰습니다.
+- 학습시에 Grad-Cam을 사용하여 모델의 성능을 높였고 추론시에는 student model만을 사용하여 추론시간을 감소시켰습니다.  
+
 ![teacher-model](/images/teacher model.png)
 ![student-model](/images/student model.png)
 
@@ -64,19 +65,19 @@ Socar의 기업 과제 중 차량 파손 탐지 및 분류 시스템을 주제�
 ### DB
 ![data-base](/images/data-base.jpg)
 
-# 기술 스택 정리
+# 기술 스택
 - model
 - web
 - serve
 
 # Repositories
-| Name  | description |
-|-------|-------------|
-| [modeling](https://github.com/SOLOv6/modeling) | 모델 관련       |
-| 2     | 1           |
-| 3     | 2           |
-| 4     | 3           |
-| 5     | 4           |
+| Name                                                           | description      |
+|----------------------------------------------------------------|------------------|
+| [modeling](https://github.com/SOLOv6/modeling)                 | 모델 관련            |
+| [model-serving](https://github.com/SOLOv6/model-serving)       | 모델 serve 관련      |
+| [Flask-User](https://github.com/SOLOv6/Flask-User)             | Flask-User       |
+| [Flask-admin](https://github.com/SOLOv6/Flask-admin)           | Flask-admin      |
+| [GCF-http-trigger](https://github.com/SOLOv6/GCF-http-trigger) | gcs-trigger      |
 
 # 데모
 ![demo](/images/demo.gif)
