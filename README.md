@@ -59,6 +59,7 @@ Socar의 기업 과제 중 차량 파손 탐지 및 분류 시스템을 주제�
 ### result
 - inference result: 최종 model 합성 image
 - pseudo mask: teacher model이 생성한 mask
+
 ![result](/images/result.png)
 
 ## 웹 구현
