@@ -73,8 +73,23 @@ Socar의 기업 과제 중 차량 파손 탐지 및 분류 시스템을 주제�
 
 # 기술 스택
 - model
+  - GCP(Google Cloud Platform)
+  - Pytorch
+  - OpenCV
+  - Wandb
 - web
+  - Docker
+  - MySQL
+  - Flask API
 - serve
+  - GCF(Google Cloud Function)
+  - Docker 
+  - Torchserve
+  - Prometheus
+- etc
+  - Github
+  - Notion 
+  - Figma
 
 # Repositories
 | Name                                                           | description      |
