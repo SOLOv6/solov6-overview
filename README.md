@@ -15,9 +15,11 @@
 - [데모](#DEMO)
 
 # Overview
-어떤 일을 했는지 간략히 정리
-2022.04.18 ~ 2022.06.08 약 한달 반동안 진행한 프로젝트를 정리하였습니다.
-Socar의 기업 과제 중 차량 파손 탐지 및 분류 시스템을 주제를 선정해 진행하였습니다.
+- Socar의 기업 과제 중 차량 파손 탐지 및 분류 시스템을 주제를 선정해 진행하였습니다.
+- AI가 파손 탐지 모델을 사용해 기존의 단순노동을 AI 모델이 처리함으로써 불필요한 작업 제거
+- U-net with EfficientNet B4를 기반으로 Custom Loss Function과 Grad-CAM을 통한 Data Imbalance 문제와 부족한 위치 정보를 보완
+- Admin UI 구현을 통한 업무 효율성 증대 : Confidence score을 기준으로 모호한 예측 결과 구분, 검수자들의 편의성 고려
+
 
 ## Team
 | Name  | Role  | Email                | Position             |
